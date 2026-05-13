@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <title>Kártya példa</title>
+    <style>
+        /* Itt adjuk meg a kártya stílusát */
+        .kartya {
+            /* Szélesség és elhelyezkedés */
+            max-width: 350px;
+                        
+            /* A lényeg: keret és lekerekítés */
+            border: 2px solid #660600;
+            border-radius: 15px; /* Ettől lesznek kerekek a sarkok */
+            
+            /* Térközök és belső kinézet */
+            padding: 18px;
+            background-color: #FFE4B5;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Egy kis árnyék a mélységhez */
+            
+            /* Betűtípus és szöveg igazítása */
+            font-family: Arial, sans-serif;
+            line-height: 1.5;
+            font-size: 18px;
+            color: #000000;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="kartya">
+        <h2>Kártya címe</h2>
+        <p>
+            Ide jöhet a hosszabb szöveged. A <strong>border-radius</strong> tulajdonság felel a lekerekítésért, a <strong>padding</strong> pedig azért, hogy a szöveg ne érjen hozzá a keret széléhez. Ha még hosszabb szöveget írsz, a kártya magassága automatikusan igazodni fog hozzá.
+        </p>
+    </div>
+
+</body>
+</html>
