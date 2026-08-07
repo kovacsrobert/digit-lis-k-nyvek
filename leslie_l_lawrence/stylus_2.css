@@ -8,10 +8,10 @@
 
 /* Általános kártya stílus - ezt használja az oldalsáv és a fejezet is */
 .kartya_normal_2 {
-    border: 2px solid #660600;
+    border: 2px solid #D6D3CE;
     border-radius: 15px;
     padding: 20px;
-    background-color: #FFE4B5;
+    background-color: #FFFFFF;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
     font-family: Arial, sans-serif;
     line-height: 1.4;
